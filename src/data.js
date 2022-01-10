@@ -1,4 +1,4 @@
-export const show =[{
+const show =[{
     img:"https://picsum.photos/200/200",
     name:"Vinh danh 295 sinh viên FPT POLYTECHNIC học kì spring 2018",
     desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro iusto, dolor magni libero unde.",
@@ -13,5 +13,7 @@ export const show =[{
     desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro iusto, dolor magni libero unde.",
 }];
 
-export const menus=["Trang chủ","Tuyển sinh","Chương trình đào tạo","Góc sinh viên ","Tuyển dụng"];
+export default show;
+
+
 
