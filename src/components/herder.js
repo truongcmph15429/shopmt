@@ -3,7 +3,7 @@ const Header = {
         return/* html */ `
         
         <div class="bg-blue-800 py-5">
-        <a href="#"><img class="w-40 mx-auto" src="../img/FPT_Polytechnic.png" alt=""></a>
+        <a href="#"><img class="w-40 mx-auto" src="../../img/FPT_Polytechnic.png" alt=""></a>
       </div>
       <div class="flex bg-orange-600 justify-between align-center ">
         <nav class="">
@@ -18,15 +18,15 @@ const Header = {
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="/ctdaotao">Chương trình đào tạo</a>
+                href="/admin/product">Product</a>
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="/gocsv">Góc sinh viên</a>
+                href="/admin/singin">Sing in</a>
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="/tuyendung">Tuyển dụng</a>
+                href="/admin/dashboard">Admin</a>
             <li>
           </ul>
     

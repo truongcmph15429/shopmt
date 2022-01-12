@@ -1,5 +1,5 @@
 import Banner from "../components/banner";
-import {shownew,shownews} from "../components/newsList";
+import {shownew} from "../components/newsList";
 
 
 const Homepage={
@@ -14,10 +14,7 @@ const Homepage={
            
            ${shownew.print()}
            </div>
-           <h2 class="my-5">Hoạt động sinh viên</h2>
-           <div class="grid grid-cols-3 gap-8">
-           ${shownews.print()}
-           </div> 
+            
         </div>    
         </div>
     `;
