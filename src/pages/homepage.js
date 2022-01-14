@@ -1,4 +1,6 @@
 import Banner from "../components/banner";
+import foodter from "../components/foodter";
+import Header from "../components/herder";
 import {shownew} from "../components/newsList";
 
 
@@ -6,6 +8,9 @@ const Homepage={
     print(){
         return /* html */`
     <div class="container mx-auto">
+        <div>
+        ${Header.print()}
+        </div>
          <div class="banner">
               ${Banner.print()}
            </div>    
@@ -14,7 +19,9 @@ const Homepage={
            
            ${shownew.print()}
            </div>
-            
+           <div>
+           ${foodter.print()}
+           </div>
         </div>    
         </div>
     `;

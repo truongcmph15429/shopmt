@@ -14,11 +14,11 @@ const Header = {
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="/tuyensinh">Tuyển sinh</a>
+                href="/About">About</a>
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="/admin/product">Product</a>
+                href="">Product</a>
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
