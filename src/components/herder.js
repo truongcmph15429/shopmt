@@ -10,7 +10,7 @@ const Header = {
         <ul class="flex" >
         <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="/">Trang chủ</a>
+                href="/">Home</a>
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
@@ -18,7 +18,7 @@ const Header = {
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"
-                href="">Product</a>
+                href="/news/page">News</a>
             <li>
             <li><a
                 class="text-xs px-9 text-white block py-4 hover:text-black hover:bg-blue-100 transition duration-300 ease-in-out font-sans"

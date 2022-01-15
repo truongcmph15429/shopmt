@@ -11,6 +11,7 @@ import Dashboard from "./pages/dashboard";
 import AdminNews from "./pages/Admin/adminproduct";
 import About from "./pages/About";
 import AdminNewsAdd from "./pages/Admin/productadd";
+import NewsPage from "./pages/newpage";
 
 const router= new Navigo("/",{linksSelector:"a"});
 
@@ -53,6 +54,9 @@ router.on({
     },
     "/admin/news/add": () =>{
         result(AdminNewsAdd.print());
+    },
+    "/news/page": () =>{
+        result(NewsPage.print());
     },
 });
 router.resolve();

@@ -46,7 +46,7 @@ const adminproductlist ={
               <div class="text-sm text-gray-500"></div>
             </td>
 
-            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+            <td class="px-6 py-4  text-sm text-gray-500">
             ${post.desc}
             </td>
             <td class="px-8 py-4 whitespace-nowrap text-sm font-medium">
